@@ -22,6 +22,8 @@
                         <h4 class="text-left mlt-4">
                           Silahkan login terlebih dahulu ke aplikasi
                         </h4>
+
+                        <!-- FORM LOGIN -->
                         <v-form>
                           <v-text-field
                             label="Masukan Email"
@@ -49,6 +51,8 @@
                             color="black"
                           />
                         </v-form>
+
+                        <!-- LOGIN BY APPS -->
                         <div class="text-center mt-2">
                           <v-btn class="mx-2" fab color="black" outlined>
                             <v-icon>fab fa-facebook-f</v-icon>
@@ -67,7 +71,19 @@
                         <v-btn rounded color="blue" dark>Login</v-btn>
                       </div>
                     </v-col>
-                    <v-col cols="12" md="8"></v-col>
+                    <v-col cols="12" md="4" class="teal accent-3">
+                      <v-card-text class="white--text mt-12">
+                        <h1 class="text-center display-1">Hello,Friends!</h1>
+                        <h5 class="text-center">
+                          Enter your personel details and start journay with us
+                        </h5>
+                      </v-card-text>
+                      <div class="text-center">
+                        <v-btn rounded outlined="" dark @click="step++"
+                          >SIGN UP</v-btn
+                        >
+                      </div>
+                    </v-col>
                   </v-row>
                 </v-window-item>
               </v-window>
