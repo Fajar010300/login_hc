@@ -86,6 +86,24 @@
                     </v-col>
                   </v-row>
                 </v-window-item>
+                <v-window-item :value="2">
+                  <v-row class="fill-height">
+                    <v-col cols="12" md="4" class="teal accent-3">
+                      <v-card-text class="white--text mt-12">
+                        <h1 class="text-center display-1">Welcome Back!</h1>
+                        <h5 class="text-center">
+                          To keep connected with us please login with your
+                          personal info
+                        </h5>
+                      </v-card-text>
+                      <div class="text-center">
+                        <v-btn rounded outlined dark @click="step--"
+                          >SIGN UP
+                        </v-btn>
+                      </div>
+                    </v-col>
+                  </v-row>
+                </v-window-item>
               </v-window>
             </v-card>
           </v-col>
