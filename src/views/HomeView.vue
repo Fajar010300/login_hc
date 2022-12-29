@@ -17,19 +17,6 @@
                           HOME CHARGING
                         </h1> -->
 
-                        <!-- <div class="text-center mt-4">
-                          <v-btn class="mx-2" fab color="black" outlined>
-                            <v-icon>fab fa-facebook-f</v-icon>
-                          </v-btn>
-                          <v-btn class="mx-2" fab color="black" outlined>
-                            <v-icon>fab fa-google-plus-g</v-icon>
-                          </v-btn>
-
-                          <v-btn class="mx-2" fab color="black" outlined>
-                            <v-icon>fab fa-linkedin-in</v-icon>
-                          </v-btn>
-                        </div> -->
-
                         <h2 class="text-left mlt-4">LOGIN</h2>
                         <br />
                         <h4 class="text-left mlt-4">
@@ -62,6 +49,18 @@
                             color="black"
                           />
                         </v-form>
+                        <div class="text-center mt-2">
+                          <v-btn class="mx-2" fab color="black" outlined>
+                            <v-icon>fab fa-facebook-f</v-icon>
+                          </v-btn>
+                          <v-btn class="mx-2" fab color="black" outlined>
+                            <v-icon>fab fa-google-plus-g</v-icon>
+                          </v-btn>
+
+                          <v-btn class="mx-2" fab color="black" outlined>
+                            <v-icon>fab fa-linkedin-in</v-icon>
+                          </v-btn>
+                        </div>
                         <h3 class="text-center mt-3">Lupa Kata Sandi</h3>
                       </v-card-text>
                       <div class="text-center mt-2">
